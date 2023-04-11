@@ -5,7 +5,7 @@ import JobCategoryList from '../JobCategoryList/JobCategoryList';
 const Home = () => {
     return (
         <div className='mt-4 mx-56'>
-            {/* <HomeBanner></HomeBanner> */}
+            <HomeBanner></HomeBanner>
             {/* <JobCategoryList></JobCategoryList> */}
         </div>
     );
