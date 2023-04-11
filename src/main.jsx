@@ -8,10 +8,34 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Header from './components/Header/Header';
+import Main from './components/Layout/Main';
+import Home from './components/Home/Home';
+import Blog from './components/Blog/Blog';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs';
+import Statistics from './components/Statistics/Statistics';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div className=''>Hello world!</div>,
+    element: <Main></Main>,
+    children:[
+      {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: 'blog',
+        element: <Blog></Blog>
+      },
+      {
+        path: 'appliedjobs',
+        element: <AppliedJobs></AppliedJobs>
+      },
+      {
+        path: 'statistics',
+        element: <Statistics></Statistics>
+      },
+    ]
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

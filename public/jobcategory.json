@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "logo": "https://img.icons8.com/nolan/256/apple-calculator.png",
+        "name": "Account & Finance",
+        "jobs": 10
+    },
+    {
+        "id": 2,
+        "logo": "https://img.icons8.com/external-icongeek26-outline-gradient-icongeek26/256/external-creative-idea-business-and-finance-icongeek26-outline-gradient-icongeek26.png",
+        "name": "Creative Design",
+        "jobs": 15
+    },
+    {
+        "id": 3,
+        "logo": "https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/256/external-marketing-marketing-flatart-icons-lineal-color-flatarticons.png",
+        "name": "Marketing & Sales",
+        "jobs": 20
+    },
+    {
+        "id": 4,
+        "logo": "https://img.icons8.com/external-itim2101-lineal-color-itim2101/256/external-engineering-engineering-itim2101-lineal-color-itim2101.png",
+        "name": "Engineering Job",
+        "jobs": 5
+    }
+]
