@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://example.com/logo.png",
+        "jobTitle": "Frontend Developer",
+        "companyName": "ABC Company",
+        "remoteOrOnsite": "Remote",
+        "location": "Any",
+        "fulltimeOrParttime": "Fulltime",
+        "salary": "Negotiable",
+        "jobDescription": "We are looking for a frontend developer with experience in React and Angular.",
+        "jobResponsibility": "Develop and maintain the company's web applications.",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "2+ years of experience in frontend development.",
+        "contactInformation": {
+            "phone": "+1 (555) 555-5555",
+            "email": "jobs@abccompany.com"
+        }
+    },
+    {
+        "id": 2,
+        "companyLogo": "https://example.com/logo.png",
+        "jobTitle": "Backend Developer",
+        "companyName": "ABC Company",
+        "remoteOrOnsite": "Remote",
+        "location": "Any",
+        "fulltimeOrParttime": "Fulltime",
+        "salary": "Negotiable",
+        "jobDescription": "We are looking for a backend developer with experience in Node.js and MySQL.",
+        "jobResponsibility": "Develop and maintain the company's API services and database systems.",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "3+ years of experience in backend development.",
+        "contactInformation": {
+            "phone": "+1 (555) 555-5555",
+            "email": "jobs@abccompany.com"
+        }
+    },
+    {
+        "id": 3,
+        "companyLogo": "https://example.com/logo.png",
+        "jobTitle": "Marketing Manager",
+        "companyName": "XYZ Corporation",
+        "remoteOrOnsite": "Onsite",
+        "location": "New York City",
+        "fulltimeOrParttime": "Fulltime",
+        "salary": "$80,000 - $100,000",
+        "jobDescription": "We are seeking a highly motivated Marketing Manager to develop and execute effective marketing strategies for our products and services.",
+        "jobResponsibility": "Develop and execute marketing strategies and campaigns to promote our products and services.",
+        "educationalRequirements": "Bachelor's degree in Marketing or related field.",
+        "experiences": "5+ years of experience in marketing.",
+        "contactInformation": {
+            "phone": "+1 (555) 555-5555",
+            "email": "jobs@xyzcorp.com"
+        }
+    }
+]
