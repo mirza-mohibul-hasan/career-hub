@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className='mt-4 mx-56'>
             <HomeBanner></HomeBanner>
-            {/* <JobCategoryList></JobCategoryList> */}
+            <JobCategoryList></JobCategoryList>
         </div>
     );
 };
