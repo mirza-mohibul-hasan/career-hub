@@ -19,7 +19,7 @@ const JobDetails = () => {
     }, [allDetails])
     // console.log(details)
     // console.log(details.desescription);
-    const { desescription, responsibility, requirements, experience, salary, title, phone, email , address} = details;
+    const { desescription, responsibility, requirements, experience, salary, title, phone, email , address, location} = details;
 
     const addAppliedJobs = () =>{
         // console.log(id, email);
@@ -31,7 +31,7 @@ const JobDetails = () => {
             {/* <div className='job-details-container'> */}
             <div className='flex gap-10'>
                 <div>
-                    <p className='mb-6'><span className='font-bold'>Job Description:</span> {details.desescription}</p>
+                    <p className='mb-6'><span className='font-bold'>Job Description:</span> {desescription}</p>
                     <p className='mb-6'><span className='font-bold'>Job Responsibility:</span> {responsibility}</p>
                     <p className='mb-6'><span className='font-bold mb-4'>Educational Requirements: <br /></span>{requirements}</p>
                     <p className='mb-6'><span className='font-bold mb-4'>Experiences: <br /></span>{experience}</p>
@@ -61,7 +61,7 @@ const JobDetails = () => {
                         </p>
                         <p className='flex gap-2 my-2'>
                             <img src={locationIcon} alt="" />
-                            <span className='font-semibold'>Address:</span>{address}
+                            <span className='font-semibold'>Address:</span> <span className='text-sm'>{address}</span>
                         </p>
                     </div>
                     <div>
