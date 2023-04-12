@@ -25,17 +25,28 @@ const AppliedJobs = () => {
     }, [allJobs])
     // console.log(appliedJobs)
 
-    const remoteJobhandler = () =>{
-        const remoteJob = savedJobs.filter(saved => saved.type ==='Remote')
+    const remoteJobhandler = () => {
+        const remoteJob = savedJobs.filter(saved => saved.type === 'Remote')
         setAppliedJobs(remoteJob);
     }
-    const onsiteJobhandler = () =>{
-        const onsiteJob = savedJobs.filter(saved => saved.type ==='Onsite')
+    const onsiteJobhandler = () => {
+        const onsiteJob = savedJobs.filter(saved => saved.type === 'Onsite')
         setAppliedJobs(onsiteJob);
     }
     return (
         <div className='mt-4 mx-3 md:mx-56'>
-            
+            <h2 className='text-3xl text-center font-bold my-20'>Applied Jobs</h2>
+            <div className='flex justify-end'>
+                <div>
+                    <button onClick={onsiteJobhandler} className='btn-applied mr-5'>Onsite</button>
+                    <button onClick={remoteJobhandler} className='btn-applied'>Remote</button>
+                </div>
+            </div>
+            <div>
+                {
+                    appliedJobs.map(job => <SingleApppliedJob key={job.id} job={job}></SingleApppliedJob>)
+                }
+            </div>
         </div>
     );
 };
