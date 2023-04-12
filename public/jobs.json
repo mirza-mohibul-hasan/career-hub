@@ -12,10 +12,8 @@
         "responsibility": "Develop and maintain the company's web applications.",
         "requirements": "Bachelor's degree in Computer Science or related field.",
         "experience": "2+ years of experience in frontend development.",
-        "contact": {
-            "phone": "+1 (555) 555-5555",
-            "email": "jobs@abccompany.com"
-        }
+        "phone": "+1 (555) 555-5555",
+        "email": "jobs@abccompany.com"
     },
     {
         "id": 2,
@@ -24,16 +22,15 @@
         "company": "Netflix",
         "type": "Onsite",
         "location": "Dhaka, Bangladesh",
+        "address": "Dhanmondi-32, Dhaka, Bangladesh",
         "time": "Full Time",
-        "salary": "100K-150K",
+        "salary": "150K-200K",
         "desescription": "We are looking for a frontend developer with experience in React and Angular.",
         "responsibility": "Develop and maintain the company's web applications.",
         "requirements": "Bachelor's degree in Computer Science or related field.",
         "experience": "2+ years of experience in frontend development.",
-        "contact": {
-            "phone": "+1 (555) 555-5555",
-            "email": "jobs@abccompany.com"
-        }
+        "phone": "+1 (555) 555-5555",
+        "email": "jobs@abccompany.com"
     },
     {
         "id": 3,
@@ -41,6 +38,7 @@
         "title": "Software Engineer",
         "company": "Tesla",
         "type": "Onsite",
+        "address": "Dhanmondi-32, Dhaka, Bangladesh",
         "location": "Dhaka, Bangladesh",
         "time": "Full Time",
         "salary": "100K-150K",
@@ -48,10 +46,8 @@
         "responsibility": "Develop and maintain the company's web applications.",
         "requirements": "Bachelor's degree in Computer Science or related field.",
         "experience": "2+ years of experience in frontend development.",
-        "contact": {
-            "phone": "+1 (555) 555-5555",
-            "email": "jobs@abccompany.com"
-        }
+        "phone": "+1 (555) 555-5555",
+        "email": "jobs@abccompany.com"
     },
     {
         "id": 4,
@@ -60,16 +56,15 @@
         "company": "Google LLC",
         "type": "Remote",
         "location": "Dhaka, Bangladesh",
+        "address": "Dhanmondi-32, Dhaka, Bangladesh",
         "time": "Full Time",
         "salary": "100K-150K",
         "desescription": "We are looking for a frontend developer with experience in React and Angular.",
         "responsibility": "Develop and maintain the company's web applications.",
         "requirements": "Bachelor's degree in Computer Science or related field.",
         "experience": "2+ years of experience in frontend development.",
-        "contact": {
-            "phone": "+1 (555) 555-5555",
-            "email": "jobs@abccompany.com"
-        }
+        "phone": "+1 (555) 555-5555",
+        "email": "jobs@abccompany.com"
     },
     {
         "id": 5,
@@ -78,16 +73,15 @@
         "company": "Google LLC",
         "type": "Remote",
         "location": "Dhaka, Bangladesh",
+        "address": "Dhanmondi-32, Dhaka, Bangladesh",
         "time": "Full Time",
         "salary": "100K-150K",
         "desescription": "We are looking for a frontend developer with experience in React and Angular.",
         "responsibility": "Develop and maintain the company's web applications.",
         "requirements": "Bachelor's degree in Computer Science or related field.",
         "experience": "2+ years of experience in frontend development.",
-        "contact": {
-            "phone": "+1 (555) 555-5555",
-            "email": "jobs@abccompany.com"
-        }
+        "phone": "+1 (555) 555-5555",
+        "email": "jobs@abccompany.com"
     },
     {
         "id": 6,
@@ -96,16 +90,14 @@
         "company": "Google LLC",
         "type": "Remote",
         "location": "Dhaka, Bangladesh",
+        "address": "Dhanmondi-32, Dhaka, Bangladesh",
         "time": "Full Time",
         "salary": "100K-150K",
         "desescription": "We are looking for a frontend developer with experience in React and Angular.",
         "responsibility": "Develop and maintain the company's web applications.",
         "requirements": "Bachelor's degree in Computer Science or related field.",
         "experience": "2+ years of experience in frontend development.",
-        "contact": {
-            "phone": "+1 (555) 555-5555",
-            "email": "jobs@abccompany.com"
-        }
+        "phone": "+1 (555) 555-5555",
+        "email": "jobs@abccompany.com"
     }
-    
 ]
