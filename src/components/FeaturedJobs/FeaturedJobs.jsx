@@ -33,7 +33,7 @@ const FeaturedJobs = ({ jobs }) => {
                 }
             </div>
             <div className='flex justify-center'>
-                <button onClick={handleShowAll} className='btn-start-applying mt-10 text-white'>See All Jobs</button>
+                <button onClick={handleShowAll} className={`btn-start-applying mt-10 text-white ${featuredJobs.length!=4 ? 'hidden':''}`}>See All Jobs</button>
             </div>
         </div>
     );
