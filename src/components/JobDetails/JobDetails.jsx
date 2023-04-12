@@ -7,6 +7,7 @@ import jobIcon from '../../assets/Icons/jobtitle.png'
 import phoneIcon from '../../assets/Icons/phone.png'
 import emailIcon from '../../assets/Icons/email.png'
 import locationIcon from '../../assets/Icons/location.png'
+import { addToDb } from '../../utilities/fakedb';
 const JobDetails = () => {
     const { id } = useParams();
     const [details, setDetails] = useState({});
@@ -19,6 +20,11 @@ const JobDetails = () => {
     // console.log(details)
     // console.log(details.desescription);
     const { desescription, responsibility, requirements, experience, salary, title, phone, email , address} = details;
+
+    const addAppliedJobs = () =>{
+        // console.log(id, email);
+        addToDb(id, email);
+    }
     return (
         <div className='mt-4 mx-56'>
             <h2 className='text-5xl text-center font-bold my-20'>Job details</h2>
@@ -59,7 +65,7 @@ const JobDetails = () => {
                         </p>
                     </div>
                     <div>
-                        <button className='btn-start-applying mt-5 w-full text-white'>Apply Now</button>
+                        <button onClick={()=>addAppliedJobs(id, email)} className='btn-start-applying mt-5 w-full text-white'>Apply Now</button>
                     </div>
                 </div>
             </div>
