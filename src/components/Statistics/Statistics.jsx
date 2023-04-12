@@ -1,6 +1,6 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-
+import './Staistics.css'
 const Statistics = () => {
 
     const marks = [
@@ -48,12 +48,14 @@ const Statistics = () => {
 
     return (
         <div className='md:my-10'>
-            <h2 className='mb-10 font-bold text-center text-2xl'>Marks Chart</h2>
+            <div className='background-image mb-5 flex items-center justify-center'>
+                <h2 className=' mb-10 font-bold text-center text-2xl'>Marks Chart</h2>
+            </div>
             <AreaChart className='mx-auto'
                 width={1200}
                 height={500}
                 data={marks}>
-                
+
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="assignment"></XAxis>
                 <YAxis dataKey="mark"></YAxis>

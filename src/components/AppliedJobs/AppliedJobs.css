@@ -7,3 +7,9 @@
 .btn-applied:hover{
     background: linear-gradient(90deg, #e97efe 0%, #ff73fa 100%);
 }
+.appliedjobs{
+    width: 100%;
+    height: 200px;
+    background-image: url('/src/assets/AllImages/Vector.png');
+    background-repeat: no-repeat;
+}
