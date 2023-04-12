@@ -8,7 +8,7 @@ const Home = () => {
     const jobs = useLoaderData();
     // console.log(jobs)
     return (
-        <div className='mt-4 mx-56'>
+        <div className='mt-4 mx-3 md:mx-56'>
             <HomeBanner></HomeBanner>
             <JobCategoryList></JobCategoryList>
             <FeaturedJobs jobs={jobs}></FeaturedJobs>
