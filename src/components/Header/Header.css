@@ -4,3 +4,6 @@
     padding: 15px 23px;
     gap: 10px;
 }
+.btn-start-applying:hover{
+    background: linear-gradient(90deg, #e97efe 0%, #ff73fa 100%);
+}
