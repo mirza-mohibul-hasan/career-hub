@@ -1,56 +1,111 @@
 [
     {
         "id": 1,
-        "companyLogo": "https://example.com/logo.png",
-        "jobTitle": "Frontend Developer",
-        "companyName": "ABC Company",
-        "remoteOrOnsite": "Remote",
-        "location": "Any",
-        "fulltimeOrParttime": "Fulltime",
-        "salary": "Negotiable",
-        "jobDescription": "We are looking for a frontend developer with experience in React and Angular.",
-        "jobResponsibility": "Develop and maintain the company's web applications.",
-        "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
-        "experiences": "2+ years of experience in frontend development.",
-        "contactInformation": {
+        "logo": "https://1000logos.net/wp-content/uploads/2021/05/Google-logo-768x432.png",
+        "title": "Technical Database Engineer",
+        "company": "Google LLC",
+        "type": "Remote",
+        "location": "Dhaka, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K-150K",
+        "desescription": "We are looking for a frontend developer with experience in React and Angular.",
+        "responsibility": "Develop and maintain the company's web applications.",
+        "requirements": "Bachelor's degree in Computer Science or related field.",
+        "experience": "2+ years of experience in frontend development.",
+        "contact": {
             "phone": "+1 (555) 555-5555",
             "email": "jobs@abccompany.com"
         }
     },
     {
         "id": 2,
-        "companyLogo": "https://example.com/logo.png",
-        "jobTitle": "Backend Developer",
-        "companyName": "ABC Company",
-        "remoteOrOnsite": "Remote",
-        "location": "Any",
-        "fulltimeOrParttime": "Fulltime",
-        "salary": "Negotiable",
-        "jobDescription": "We are looking for a backend developer with experience in Node.js and MySQL.",
-        "jobResponsibility": "Develop and maintain the company's API services and database systems.",
-        "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
-        "experiences": "3+ years of experience in backend development.",
-        "contactInformation": {
+        "logo": "https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png",
+        "title": "Senior Product Designer",
+        "company": "Netflix",
+        "type": "Onsite",
+        "location": "Dhaka, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K-150K",
+        "desescription": "We are looking for a frontend developer with experience in React and Angular.",
+        "responsibility": "Develop and maintain the company's web applications.",
+        "requirements": "Bachelor's degree in Computer Science or related field.",
+        "experience": "2+ years of experience in frontend development.",
+        "contact": {
             "phone": "+1 (555) 555-5555",
             "email": "jobs@abccompany.com"
         }
     },
     {
         "id": 3,
-        "companyLogo": "https://example.com/logo.png",
-        "jobTitle": "Marketing Manager",
-        "companyName": "XYZ Corporation",
-        "remoteOrOnsite": "Onsite",
-        "location": "New York City",
-        "fulltimeOrParttime": "Fulltime",
-        "salary": "$80,000 - $100,000",
-        "jobDescription": "We are seeking a highly motivated Marketing Manager to develop and execute effective marketing strategies for our products and services.",
-        "jobResponsibility": "Develop and execute marketing strategies and campaigns to promote our products and services.",
-        "educationalRequirements": "Bachelor's degree in Marketing or related field.",
-        "experiences": "5+ years of experience in marketing.",
-        "contactInformation": {
+        "logo": "https://logowik.com/content/uploads/images/tesla.jpg",
+        "title": "Software Engineer",
+        "company": "Tesla",
+        "type": "Onsite",
+        "location": "Dhaka, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K-150K",
+        "desescription": "We are looking for a frontend developer with experience in React and Angular.",
+        "responsibility": "Develop and maintain the company's web applications.",
+        "requirements": "Bachelor's degree in Computer Science or related field.",
+        "experience": "2+ years of experience in frontend development.",
+        "contact": {
             "phone": "+1 (555) 555-5555",
-            "email": "jobs@xyzcorp.com"
+            "email": "jobs@abccompany.com"
+        }
+    },
+    {
+        "id": 4,
+        "logo": "https://1000logos.net/wp-content/uploads/2021/05/Google-logo-768x432.png",
+        "title": "Technical Database Engineer",
+        "company": "Google LLC",
+        "type": "Remote",
+        "location": "Dhaka, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K-150K",
+        "desescription": "We are looking for a frontend developer with experience in React and Angular.",
+        "responsibility": "Develop and maintain the company's web applications.",
+        "requirements": "Bachelor's degree in Computer Science or related field.",
+        "experience": "2+ years of experience in frontend development.",
+        "contact": {
+            "phone": "+1 (555) 555-5555",
+            "email": "jobs@abccompany.com"
+        }
+    },
+    {
+        "id": 5,
+        "logo": "https://1000logos.net/wp-content/uploads/2021/05/Google-logo-768x432.png",
+        "title": "Technical Database Engineer",
+        "company": "Google LLC",
+        "type": "Remote",
+        "location": "Dhaka, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K-150K",
+        "desescription": "We are looking for a frontend developer with experience in React and Angular.",
+        "responsibility": "Develop and maintain the company's web applications.",
+        "requirements": "Bachelor's degree in Computer Science or related field.",
+        "experience": "2+ years of experience in frontend development.",
+        "contact": {
+            "phone": "+1 (555) 555-5555",
+            "email": "jobs@abccompany.com"
+        }
+    },
+    {
+        "id": 6,
+        "logo": "https://1000logos.net/wp-content/uploads/2021/05/Google-logo-768x432.png",
+        "title": "Technical Database Engineer",
+        "company": "Google LLC",
+        "type": "Remote",
+        "location": "Dhaka, Bangladesh",
+        "time": "Full Time",
+        "salary": "100K-150K",
+        "desescription": "We are looking for a frontend developer with experience in React and Angular.",
+        "responsibility": "Develop and maintain the company's web applications.",
+        "requirements": "Bachelor's degree in Computer Science or related field.",
+        "experience": "2+ years of experience in frontend development.",
+        "contact": {
+            "phone": "+1 (555) 555-5555",
+            "email": "jobs@abccompany.com"
         }
     }
+    
 ]
