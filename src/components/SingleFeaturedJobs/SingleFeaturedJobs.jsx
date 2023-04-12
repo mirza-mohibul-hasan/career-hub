@@ -18,7 +18,7 @@ const SingleFeaturedJobs = ({ featuredJob }) => {
                 </p>
                 <p className='flex'>
                     <img src={salaryIcon} alt="" />
-                    <span>{salary}</span>
+                    <span>Salary: {salary}</span>
                 </p>
             </div>
             <Link to={`/jobdetails/${id}`}><button className='btn-start-applying text-white mt-3'>View Details</button></Link>
